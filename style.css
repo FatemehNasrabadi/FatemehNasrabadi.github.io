@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background: #e6e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    direction: rtl;
+}
+
+div.cours {
+    border: 1px solid #d8bbbb;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0, .16);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.cours-header span {
+    background: red;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.cours-header {
+    position: relative;
+    border-bottom: 1px solid #be8787;
+}
+
+.cours-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.cours-footer ins {
+    color: green;
+    text-decoration: none;
+}
+
+.cours-footer del {
+    color: red;
+}
